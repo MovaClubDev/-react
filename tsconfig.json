@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+      "strict": true,
+      "module": "ESNext",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "target": "es5",
+      "lib": ["ESNext", "DOM"],
+      "sourceMap": true,
+      "allowJs": true,
+      "jsx": "react-jsx",
+      "noEmit": true,
+      "rootDir": "src",
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "resolveJsonModule": true
+    },
+    "include": [
+        "./src"
+    ],
+    "exclude": [
+      "node_modules",
+      "build",
+      "scripts",
+      "acceptance-tests",
+      "webpack",
+      "jest",
+      "src/setupTests.ts"
+    ],
+    "types": [
+      "typePatches"
+    ]
+}
